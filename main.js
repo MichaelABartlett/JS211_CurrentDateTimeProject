@@ -14,7 +14,7 @@ const displayDate = () => {
 }
  
 
-// Write a JavaScript program to convert a number to a string.
+// Write a JavaScript program to convert a number to a string..
 
 
 
