@@ -6,10 +6,114 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <!-- date and time -->
+    <h1>Check the date and time</h1>
     <hr/>
     <div id="display-element"></div>
     <button onclick="displayDate()">Click Me</button>
     <hr/>
+<!-- number to a string -->
+    <h1>Number to a string</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enter a Number:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="numberString(this.value)">
+    </div>
+    <div id="number-string"></div>
+    <button onclick="numberStringRun()">Click Me</button>
+    <hr/>
+
+
+
+    <!-- string to a number -->
+    
+    <h1>String to a number</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enter a Number:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="stringNumber(this.value)">
+    </div>
+    <div id="string-number"></div>
+    <button onclick="stringNumberRun()">Click Me</button>
+    <hr/>
+
+
+<!-- ******************add two numbers**************** -->
+
+    <h1>Add two numbers</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enter first Number:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="addTwoNumbers1(this.value)">
+    </div>
+    <div class="firstNumber">
+      <label for="first-number">Enter second Number:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="addTwoNumbers2(this.value)">
+    </div>
+    <div id="addTwoNumbers"></div>
+    <button onclick="addTwoNumbersRun()">Click Me</button>
+    <hr/>
+    
+<!-- ********************runs only when both are true ***************************** -->
+
+<h1>This will only run when both values are true</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enther first boolean number value:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="bothTrue1(this.value)">
+    </div>
+    <div class="firstNumber">
+      <label for="first-number">Enter second boolean number value:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="bothTrue2(this.value)">
+    </div>
+    <div id="bothTrue"></div>
+    <button onclick="bothTrueRun()">Click Me</button>
+    <hr/>
+
+<!-- ********************runs when at least one is true ***************************** -->
+
+<h1>This will run when at least one value is true</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enther first boolean number value:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="oneIsTrue1(this.value)">
+    </div>
+    <div class="firstNumber">
+      <label for="first-number">Enter second boolean number value:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="oneIsTrue2(this.value)">
+    </div>
+    <div id="oneIsTrue"></div>
+    <button onclick="oneIsTrueRun()">Click Me</button>
+    <hr/>
+
+<!-- ********************runs when both are not true ***************************** -->
+
+<h1>This will run when both are not true</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enther first boolean number value:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="bothNotTrue1(this.value)">
+    </div>
+    <div class="firstNumber">
+      <label for="first-number">Enter second boolean number value:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" name="" placeholder="" value="" onkeyup="bothNotTrue2(this.value)">
+    </div>
+    <div id="bothNotTrue"></div>
+    <button onclick="bothNotTrueRun()">Click Me</button>
+    <hr/>
+
+
+
+
   </body>
 </html>
