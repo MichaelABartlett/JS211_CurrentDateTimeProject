@@ -39,6 +39,26 @@
     <button onclick="stringNumberRun()">Click Me</button>
     <hr/>
 
+<!-- ***********************find datatypes**************************** -->
+
+<h1>Find the data type</h1>
+    <hr/>
+    <div class="firstNumber">
+      <label for="first-number">Enter ONLY a Number here:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="number" id="first-Number" onkeyup="findNumberDataType(this.value)">
+    </div>
+    <div class="firstNumber">
+      <label for="first-number">Enter anything other than numbers here:</label>
+      <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
+      <input type="string" id="first-Number" onkeyup="findOtherDataType(this.value)">
+    </div>
+    <div id="find-data-type"></div>
+    <button onclick="findDataTypeRun()">Click Me</button>
+    <hr/>
+
+
+
 
 <!-- ******************add two numbers**************** -->
 

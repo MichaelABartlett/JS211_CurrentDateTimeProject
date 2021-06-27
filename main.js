@@ -49,13 +49,48 @@ const stringNumberRun = () => {
 
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
-  // * Boolean
+  // * Boolean -
   // * Null
-  // * Undefined
-  // * Number
+  // * Undefined-
+  // * Number-
   // * NaN
-  // * String
-  
+  // * String-
+
+const findNumberDataType = (val) => {
+  const num1 = parseInt(val);
+  typeAnswer1 = num1;
+}
+const findOtherDataType = (val) => {
+  const num1 = (val);
+  typeAnswer1 = num1;
+}
+
+let strNumber1;
+
+
+// **************************I figured out how to check for a number*******************************
+const findDataTypeRun = (sn1) => {
+  if(typeof(typeAnswer1) === "number"){
+    //console.log('testing')
+    typeAnswer = "Type is number";
+    document.getElementById("find-data-type").innerHTML = typeAnswer;
+// ***************OK i am confused input box hand over a string how to I get it the answer anything other than string**************
+
+  } else if (typeof(typeAnswer1) === "string") {
+    typeAnswer = "Type is a string"
+    document.getElementById("find-data-type").innerHTML = typeAnswer;
+  } 
+}
+
+
+
+
+console.log(typeof(true))
+console.log(typeof("string thing"))
+console.log(typeof([]))
+console.log(typeof(whatIsThis))
+console.log(typeof(5))
+
 
   
 // Write a JavaScript program that adds 2 numbers together.
@@ -226,6 +261,8 @@ const bothNotTrueRun = () => {
 // Video1: https://player.vimeo.com/video/377147232
 // Video2: https://www.youtube.com/embed/bkvH28PXLWc
 // Video3: https://www.youtube.com/embed/TrGI9Yki-24
+
+
 
 // let atLeastOne = function(thing1,thing2){
 
