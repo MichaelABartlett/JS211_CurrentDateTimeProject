@@ -252,7 +252,7 @@ const bothNotTrueRun = () => {
 // 4. Go local host 5500 or http://127.0.0.1:5500/index.html to see your web page
 // 5. Or go use the `npm start` command and navigate to localhost:8080 (ctrl + C to close)
 // 6. go to `index.html` 
-// 7. create inputs, buttons and event listeners that render the code blocks you built above to the DOM.
+// 7. create inputs, buttons and   event listeners that render the code blocks you built above to the DOM.
 
 
 
